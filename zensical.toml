@@ -4,13 +4,14 @@
 [project]
 site_name = "SfM Tool"
 site_description = "Fun with Structure from Motion"
-# Where `.github/workflows/docs.yml` deploys the built site: the project Pages
-# site of this repository, with no custom domain. Every absolute URL the build
+# Where `.github/workflows/docs.yml` deploys the built site: the organization
+# Pages site, which GitHub serves at the root because this repository is named
+# `sfmtool.github.io`. There is no custom domain. Every absolute URL the build
 # emits is derived from it, so without it `sitemap.xml` comes out with no
 # entries at all and a search engine has nothing to read. It is the deployed
 # URL rather than a local one because the sitemap is consumed from the
 # deployed site.
-site_url = "https://sfmtool.github.io/sfmtool/"
+site_url = "https://sfmtool.github.io/"
 repo_url = "https://github.com/sfmtool/sfmtool"
 repo_name = "sfmtool/sfmtool"
 
